@@ -1,4 +1,4 @@
- ### _Junior Frontend Developer_
+### _Junior Frontend Developer_
 #### Anastasia Kvachenok 
 <br>
 
