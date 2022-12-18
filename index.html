@@ -4,7 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Anastasia Kvachenok CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body></body>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code">Code</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Anastasia Kvachenok</h1>
+            <p class="frontend-developer">Junior Front-end Developer</p>
+            <section class="photo-and-contacts">
+                <img src="assets/my_photo.jpg" alt="Моя фотография" width="200">
+                <section class="contact-information" id="contact">
+                    <h2>Contact information:</h2>
+                    <ul>
+                        <li>phone: +1234567890 </li>
+                        <li>email: nastya@example.com  </li>
+                        <li>github: https://github.com/NastyaKvachenok  </li>
+                        <li>discord: Asya (@NastyaKvachenok)  </li>
+                        <li>location: Tbilisi, Georgia</li>
+                    </ul>
+                </section>
+            </section>
+            <section class="about-me" id="about-me">
+                <h2>About me:</h2>
+                <p>I am a beginner Frontend Developer. I am currently gaining theoretical and practical skills in frontend development, which I want to apply in commercial development in the future. I am persistent, I love to delve deeply into the topic that interests me and get new information. I have an analytical mind and I love to solve complex problems.In addition to interest, I have a desire to be useful to others with my skills and abilities. 
+                I am ready for long, meaningful and productive work, and I hope this will help me master the profession of Frontend Developer and get the position of Junior Frontend Developer, and then successfully work on it and continue my professional path. </p>
+            </section>
+            <section class="skills" id="skills">
+                <h2>Skills:</h2>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Git</li>
+                    <li>VScode</li>
+                </ul>
+            </section>
+            <section class="code-example" id="code">
+                <h2>Code example:</h2>
+                <pre>
+                    <code>
+                        function isPalindrome(line) {
+                            line = String(line);
+                            let lineReverse = line.split('').reverse().join('');
+                            return line == lineReverse;
+                        }
+                    </code>
+                </pre>
+            </section>
+            <section class="my-progects" id="projects">
+                <h2>My progects:</h2>
+                <a href="https://NastyaKvachenok.github.io/rsschool-cv/">My CV</a>
+            </section>
+            <section class="education" id="education">
+                <h2>Education:</h2>
+                <ul>
+                    <li>Higher education (Belarusian State University, biologist)  </li>
+                    <li>Rolling Scopes Scholl  (JavaScript/Frontend, in progress)</li>
+                </ul>
+            </section>
+            <section class="english-level">
+                <h2>English level:</h2>
+                <p>А2 (pre-intermediate)</p>
+            </section>
+        </main>
+        <footer>
+            <a href="https://github.com/NastyaKvachenok"><img src="assets/github_logotype.png" alt="Логотип GitHub" width="50">My GitHub</a>
+            <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="Логотип курса-RSShool" width="200"></a>
+            <p>2022</p>
+        </footer>
+    </div>
+</body>
 </html>
