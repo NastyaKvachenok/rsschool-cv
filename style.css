@@ -2,3 +2,38 @@
     margin: 0 auto;
     max-width: 1020px;
 }
+
+header, footer {
+    background-color: #5E6076;
+}
+
+header {
+    border-bottom: 3px solid #52525F;
+ }
+
+footer {
+    border-top: 3px solid #52525F;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #A5D2AB;
+}
+
+nav ul li a:hover {
+    color:  #f06c64;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+ 
+
+
