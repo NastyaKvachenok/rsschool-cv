@@ -11,10 +11,6 @@ header {
     border-bottom: 3px solid #52525F;
  }
 
-footer {
-    border-top: 3px solid #52525F;
-}
-
 nav ul li {
     list-style-type: none;
 }
@@ -34,6 +30,23 @@ nav ul {
     display: flex;
     justify-content: space-around;
 }
+
+footer {
+    border-top: 3px solid #52525F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    color: #A5D2AB;
+    font-size: 20px;
+}
+
+footer a {
+    color: #A5D2AB;
+}
+
  
 
 
